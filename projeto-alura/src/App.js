@@ -7,29 +7,29 @@ function App() {
     {
       nome: 'Thamires',
       livro: 'React',
-      preco: '1000'
+      preco: 'R$ 1000'
     },
     {
       nome: 'Daniela',
       livro: 'Java',
-      preco: '99'
+      preco: 'R$ 99'
     },
     {
       nome: 'Maria',
       livro: 'Design',
-      preco: '150'
+      preco: 'R$ 150'
     },
     {
       nome: 'Bruna',
       livro: 'DevOps',
-      preco: '100'
+      preco: 'R$ 100'
     }
   ]
 
 
   return (
     <div className="App">
-      <Tabela />
+      <Tabela autores = { autores } />
     </div>
   );
 }
